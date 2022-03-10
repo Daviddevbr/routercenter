@@ -1,0 +1,173 @@
+@font-face {
+    font-family: 'mad_hackeritalic';
+    src: url(/fonts/mad_hacker_italic-webfont.woff);
+}
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    background-color: #111216;
+}
+.corpo{
+    margin:15px;
+    width: 60%;
+    height: 97vh;
+    border-radius: 20px;
+    border: solid 2px rgb(0, 255, 0);
+    background-color: #111216;
+    overflow: scroll;
+    
+}
+.navagadorbar{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 10vh;
+    border-bottom:solid 2px #0f0 ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.titulo{
+    margin: 0px;
+    padding: 10px;
+    font-family: 'mad_hackeritalic';
+    color: rgb(40, 134, 40);
+    font-size: 30px;
+    
+}
+.corpomodelos{
+    width: 100%;
+   
+}
+.listamodelo{
+    
+    border-radius: 20px;
+    width: 98%;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+   
+    flex-wrap: wrap;
+    margin: 10px;
+    background-color: #242526;
+
+
+
+}
+
+.modelo{
+    text-align: center;
+    
+    text-decoration: none;
+    padding: 10px;
+    width: 15%;
+    margin: 2px;
+    border-radius: 20px ;
+    color: rgb(41, 153, 7);
+    background-color: rgba(0, 255, 0, 0.144);
+}
+
+.divmaisUsados{
+    
+    
+    width: 40%;
+    height: 97vh;
+    border-radius:20px ;
+    margin: 15px;
+    padding: 0px;
+    border: solid 2px #0f0;
+    overflow: scroll;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  
+  
+}
+
+.divmaisUsados h1{
+  font-size: 20pt;
+}
+.maisusados{
+  width: 100%;
+  margin: 50px;
+  display: none;
+  flex-direction: column;
+}
+.titulotop{
+  position: absolute;
+  margin: 0px;
+  padding: 10px;
+  font-family: 'mad_hackeritalic';
+  color: rgb(40, 134, 40);
+  font-size: 30px;
+
+}
+
+
+body::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+   
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: #111216;        /* color of the tracking area */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #0f0;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid #111216;  /* creates padding around scroll thumb */
+  }
+
+
+  .corpo::-webkit-scrollbar-corner{
+   
+    
+  }
+  .corpo::-webkit-scrollbar-button{
+    width: 100px;
+  }
+  .corpo::-webkit-scrollbar {
+    width: 10px;               /* width of the entire scrollbar */
+   
+  }
+  
+  .corpo::-webkit-scrollbar-track {
+    background: #111216;        /* color of the tracking area */
+  }
+  
+  .corpo::-webkit-scrollbar-thumb {
+    background-color: #0f0;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid #111216;  /* creates padding around scroll thumb */
+  }
+.divmaisUsados::-webkit-scrollbar-corner{
+   
+    
+}
+.divmaisUsados::-webkit-scrollbar-button{
+  width: 100px;
+}
+.divmaisUsados::-webkit-scrollbar {
+  width: 10px;               /* width of the entire scrollbar */
+ 
+}
+
+.divmaisUsados::-webkit-scrollbar-track {
+  background: #111216;        /* color of the tracking area */
+}
+
+.divmaisUsados::-webkit-scrollbar-thumb {
+  background-color: #0f0;    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 3px solid #111216;  /* creates padding around scroll thumb */
+}
